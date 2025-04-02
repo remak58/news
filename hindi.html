@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>हिंदी समाचार पत्र</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="hindi.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>हिंदी समाचार पत्र</h1>
+                <div class="header-actions">
+                    <button id="add-newspaper-btn" class="action-btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <button id="favorites-btn" class="action-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button id="theme-toggle" class="action-btn">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="समाचार पत्र खोजें...">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <!-- Newspaper Categories -->
+        <div class="categories-container">
+            <div class="categories">
+                <div class="category-slider">
+                    <button class="category-btn active" data-category="all">सभी</button>
+                    <button class="category-btn" data-category="news paper">समाचार पत्र</button>
+                    <button class="category-btn" data-category="online news portal">ऑनलाइन न्यूज़ पोर्टल</button>
+                    <button class="category-btn" data-category="tv channel">टीवी चैनल</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newspaper Grid -->
+        <div id="newspaper-grid" class="newspaper-grid">
+            <!-- Newspapers will be dynamically loaded here -->
+        </div>
+
+        <!-- Add Newspaper Modal -->
+        <div id="add-newspaper-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>नया समाचार पत्र जोड़ें</h2>
+                <form id="add-newspaper-form">
+                    <input type="text" id="newspaper-name" placeholder="समाचार पत्र का नाम" required>
+                    <input type="url" id="newspaper-website" placeholder="वेबसाइट URL" required>
+                    <select id="newspaper-type">
+                        <option value="News Paper">समाचार पत्र</option>
+                        <option value="Online News Portal">ऑनलाइन न्यूज़ पोर्टल</option>
+                        <option value="TV Channel">टीवी चैनल</option>
+                    </select>
+                    <input type="file" id="newspaper-logo" accept="image/*">
+                    <button type="submit">जोड़ें</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="hindi.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>മലയാളം വാർത്താ മാധ്യമങ്ങൾ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="newspapers.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>മലയാളം വാർത്താ മാധ്യമങ്ങൾ</h1>
+                <div class="header-actions">
+                    <button id="add-newspaper-btn" class="action-btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <button id="favorites-btn" class="action-btn">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button id="theme-toggle" class="action-btn">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="മാധ്യമം തിരയുക...">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <!-- Newspaper Categories -->
+        <div class="categories-container">
+            <div class="categories">
+                <div class="category-slider">
+                    <button class="category-btn active" data-category="all">എല്ലാം</button>
+                    <button class="category-btn" data-category="news paper">വാർത്താ പത്രം</button>
+                    <button class="category-btn" data-category="online news portal">ഓൺലൈൻ വാർത്താ പോർട്ടൽ</button>
+                    <button class="category-btn" data-category="tv channel">ടിവി ചാനൽ</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newspaper Grid -->
+        <div id="newspaper-grid" class="newspaper-grid">
+            <!-- Newspapers will be dynamically loaded here -->
+        </div>
+
+        <!-- Add Newspaper Modal -->
+        <div id="add-newspaper-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>പുതിയ മാധ്യമം ചേർക്കുക</h2>
+                <form id="add-newspaper-form">
+                    <input type="text" id="newspaper-name" placeholder="മാധ്യമത്തിന്റെ പേര്" required>
+                    <input type="url" id="newspaper-website" placeholder="വെബ്സൈറ്റ് URL" required>
+                    <select id="newspaper-type">
+                        <option value="News Paper">വാർത്താ പത്രം</option>
+                        <option value="Online News Portal">ഓൺലൈൻ വാർത്താ പോർട്ടൽ</option>
+                        <option value="TV Channel">ടിവി ചാനൽ</option>
+                    </select>
+                    <input type="file" id="newspaper-logo" accept="image/*">
+                    <button type="submit">ചേർക്കുക</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="newspapers.js"></script>
+</body>
+</html>

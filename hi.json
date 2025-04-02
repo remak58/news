@@ -1,0 +1,798 @@
+[{
+  
+        "name": "Dainik Bhaskar",
+        "image": "image/hi/dainik-bhaskar.jpg",
+        "website": "https://bhaskar.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Dainik Jagran",
+        "image": "image/hi/dainik-jagran.png",
+        "website": "https://jagran.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Amar Ujala",
+        "image": "image/hi/amar-ujala.png",
+        "website": "https://amarujala.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Hindustan",
+        "image": "image/hi/hindustan.jpg",
+        "website": "https://indianexpress.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Rajasthan Patrika",
+        "image": "image/hi/rajasthan-patrika.png",
+        "website": "https://patrika.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Jansatta",
+        "image": "image/hi/jansatta.png",
+        "website": "https://jansatta.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Punjab Kesari",
+        "image": "image/hi/punjab-kesari.jpg",
+        "website": "https://punjabkesari.in",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Prabhat Khabar",
+        "image": "image/hi/prabhat-khabar.jpg",
+        "website": "https://prabhatkhabar.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Naidunia",
+        "image": "image/hi/naidunia.png",
+        "website": "https://naidunia.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Hari Bhoomi",
+        "image": "image/hi/hari-bhoomi.png",
+        "website": "https://haribhoomi.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+   {
+        "name": "Navbharat Times",
+        "image": "image/hi/navbharat-times.png",
+        "website": "https://livemint.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Inext Live",
+        "image": "image/hi/inext.png",
+        "website": "https://inextlive.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Mahanagar Times",
+        "image": "image/hi/mahanagar-times.png",
+        "website": "https://mahanagartimes.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Saamana",
+        "image": "image/hi/saamana.png",
+        "website": "https://saamana.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Tarun Mitra",
+        "image": "image/hi/tarunmitra.png",
+        "website": "https://tarunmitra.in",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Sanjeevni Today",
+        "image": "image/hi/sanjeevni-today.png",
+        "website": "https://sanjeevnitoday.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Navjivan",
+        "image": "image/hi/navjivan.png",
+        "website": "https://navjivanindia.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Deshbandhu",
+        "image": "image/hi/deshbandhu.png",
+        "website": "https://deshbandhu.co.in",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Samachar Jagat",
+        "image": "image/hi/samachar-jagat.jpg",
+        "website": "https://samacharjagat.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Divya Himachal",
+        "image": "image/hi/divya-himachal.jpg",
+        "website": "https://divyahimachal.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Dainik Tribune",
+        "image": "image/hi/dainik-tribune.png",
+        "website": "https://dainiktribuneonline.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Pradesh Today",
+        "image": "image/hi/pradesh-today.png",
+        "website": "https://pradeshtoday.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Dainik Savera Times",
+        "image": "image/hi/dainik-savera-times.png",
+        "website": "https://dainiksaveratimes.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Agniban",
+        "image": "image/hi/agniban.jpg",
+        "website": "https://agniban.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Uttam Hindu",
+        "image": "image/hi/uttam-hindu.png",
+        "website": "https://uttamhindu.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Dabang Dunia",
+        "image": "image/hi/dabang-dunia.png",
+        "website": "https://dabangdunia.co",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Sanmarg",
+        "image": "image/hi/sanmarg.png",
+        "website": "https://sanmarg.in",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Navabharat",
+        "image": "image/hi/nava-bharat.png",
+        "website": "https://enavabharat.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Sach Kahoon",
+        "image": "image/hi/sach-kahoon.jpg",
+        "website": "https://sachkahoon.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Khabar Mantra",
+        "image": "image/hi/khabarmantra.jpg",
+        "website": "https://khabarmantra.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Samagya",
+        "image": "image/hi/samagya.png",
+        "website": "https://samagya.in",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Loktej",
+        "image": "image/hi/loktej.jpg",
+        "website": "https://loktej.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Star Samachaar",
+        "image": "image/hi/star-samachar.png",
+        "website": "https://starsamachar.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Daily Chhattisgarh",
+        "image": "image/hi/daily-chhattisgarh.png",
+        "website": "https://dailychhattisgarh.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Pratahkal",
+        "image": "image/hi/pratahkal.png",
+        "website": "https://pratahkal.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Dainik Sandhya Prakash",
+        "image": "image/hi/dainik-sandhya-prakash.jpg",
+        "website": "https://dainiksandhyaprakash.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Virarjun",
+        "image": "image/hi/virarjun.jpg",
+        "website": "https://virarjun.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+      {
+        "name": "Vyapar Hindi",
+        "image": "image/hi/vyapar-hindi.png",
+        "website": "https://virarjun.com",
+        "language": "Hindi",
+        "type": "News Paper"
+      },
+
+      {
+        "name": "NDTV Khabar",
+        "image": "image/hi/ndtv.png",
+        "website": "https://khabar.ndtv.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Aaj Tak",
+        "image": "image/hi/aajtak.png",
+        "website": "https://aajtak.intoday.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "News18 Hindi",
+        "image": "image/hi/news18.png",
+        "website": "https://hindi.news18.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "India Today Hindi",
+        "image": "image/hi/indiatoday.png",
+        "website": "https://indiatodayhindi.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "ABP News",
+        "image": "image/hi/abplive.jpg",
+        "website": "https://abplive.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Zee News Hindi",
+        "image": "image/hi/zeenews.png",
+        "website": "https://zeenews.india.com/hindi",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Times Now Hindi",
+        "image": "image/hi/times-now.png",
+        "website": "https://timesnowhindi.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Republic World",
+        "image": "image/hi/republic-world.jpg",
+        "website": "https://bharat.republicworld.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "India TV",
+        "image": "image/hi/indiatv.png",
+        "website": "https://indiatv.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "News State",
+        "image": "image/hi/news-state.jpg",
+        "website": "https://newsstate.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Zee Hindustan",
+        "image": "image/hi/zee-hindustan.png",
+        "website": "https://zeenews.india.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Zee Business",
+        "image": "image/hi/zee-business.png",
+        "website": "https://zeebiz.com/hindi",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "ETV Bharat",
+        "image": "image/hi/etvbharat.png",
+        "website": "https://etvbharat.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "DD News",
+        "image": "image/hi/dd-news.png",
+        "website": "https://ddnews.gov.in/hi",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Inkhabar",
+        "image": "image/hi/inkhabar.png",
+        "website": "https://inkhabar.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "TV9 Bharatvarsh",
+        "image": "image/hi/tv9bharatvarsh.jpg",
+        "website": "https://tv9hindi.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "News24 Hindi",
+        "image": "image/hi/news24.png",
+        "website": "https://hindi.news24online.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Sahara Samay",
+        "image": "image/hi/samay-live.png",
+        "website": "https://samaylive.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "IBC24",
+        "image": "image/hi/ibc24.png",
+        "website": "https://ibc24.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "First India News",
+        "image": "image/hi/first-india.png",
+        "website": "https://firstindianews.com",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Lok Sabha TV",
+        "image": "image/hi/loksabhatv.png",
+        "website": "https://loksabhatv.nic.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Sudarshan News",
+        "image": "image/hi/sudarshan-news.png",
+        "website": "https://sudarshannews.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Bharat Samachar TV",
+        "image": "image/hi/bharat-samachar.png",
+        "website": "https://bharatsamachartv.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+      {
+        "name": "Jan TV",
+        "image": "image/hi/jantv.png",
+        "website": "https://jantv.in",
+        "language": "Hindi",
+        "type": "TV Channel"
+      },
+  
+      {
+        "name": "Money Control",
+        "image": "image/hi/money-control.png",
+        "website": "https://hindi.moneycontrol.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "One India",
+        "image": "image/hi/oneindia.png",
+        "website": "https://hindi.oneindia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "India.com",
+        "image": "image/hi/india.png",
+        "website": "https://india.com/hindi-news",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Firstpost",
+        "image": "image/hi/firstpost.png",
+        "website": "https://hindi.firstpost.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Webdunia",
+        "image": "image/hi/webdunia.png",
+        "website": "https://hindi.webdunia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "ScoopWhoop",
+        "image": "image/hi/scoopwhoop.png",
+        "website": "https://scoopwhoop.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "ThePrint",
+        "image": "image/hi/theprint.png",
+        "website": "https://hindi.theprint.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "The Wire",
+        "image": "image/hi/thewirehindi.png",
+        "website": "https://thewirehindi.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Quint Hindi",
+        "image": "image/hi/thequint.jpg",
+        "website": "https://hindi.thequint.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "OpIndia",
+        "image": "image/hi/opindia.png",
+        "website": "https://hindi.opindia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+   
+      {
+        "name": "BBC News Hindi",
+        "image": "image/hi/bbc-hindi.png",
+        "website": "https://bbc.com/hindi",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      }, 
+      {
+        "name": "Prabhasakshi",
+        "image": "image/hi/prabhasakshi.png",
+        "website": "https://prabhasakshi.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Newstrend",
+        "image": "image/hi/newstrend.png",
+        "website": "https://newstrend.news",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "News Track",
+        "image": "image/hi/newstracklive.png",
+        "website": "https://newstracklive.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Aaj ki Raftaar",
+        "image": "image/hi/raftaar.jpg",
+        "website": "https://raftaar.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Newsd",
+        "image": "image/hi/newsd.png",
+        "website": "https://hindi.newsd.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "PTI",
+        "image": "image/hi/ptinews.png",
+        "website": "https://bhasha.ptinews.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Khas Khabar",
+        "image": "image/hi/khaskhabar.jpg",
+        "website": "https://khaskhabar.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Ujjawal Prabhat",
+        "image": "image/hi/ujjawalprabhat.png",
+        "website": "https://ujjawalprabhat.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Hindusthan Samachar",
+        "image": "image/hi/hindusthansamachar.png",
+        "website": "https://hindusthansamachar.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Bhadas4Media",
+        "image": "image/hi/bhadas4media.jpg",
+        "website": "https://bhadas4media.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Rochakpost",
+        "image": "image/hi/rochakpost.png",
+        "website": "https://rochakpost.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "News 4 Social",
+        "image": "image/hi/news4social.png",
+        "website": "https://news4social.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Express Media Service",
+        "image": "image/hi/emsindia.png",
+        "website": "https://emsindia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "WeForNews",
+        "image": "image/hi/wefornewshindi.png",
+        "website": "https://wefornewshindi.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "NewsClick",
+        "image": "image/hi/newsclick.png",
+        "website": "https://hindi.newsclick.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "IANS Hindi",
+        "image": "image/hi/ianshindi.png",
+        "website": "https://ianshindi.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "NewsroomPost",
+        "image": "image/hi/newsroompost.png",
+        "website": "https://hindi.newsroompost.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "News Aroma",
+        "image": "image/hi/newsaroma.png",
+        "website": "https://newsaroma.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Satya Hindi",
+        "image": "image/hi/satyahindi.png",
+        "website": "https://satyahindi.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "HS News",
+        "image": "image/hi/hs.png",
+        "website": "https://hs.news",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "liveindia",
+        "image": "image/hi/liveindia.png",
+        "website": "https://liveindia.live",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Kanv Kanv",
+        "image": "image/hi/kanvkanv.png",
+        "website": "https://kanvkanv.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Bhopal Samachar",
+        "image": "image/hi/bhopal-samachar.png",
+        "website": "https://bhopalsamachar.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "The Citizen",
+        "image": "image/hi/thecitizen.png",
+        "website": "https://thecitizen.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "HW News",
+        "image": "image/hi/hwnews.png",
+        "website": "https://hindi.hwnews.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "WeRIndia",
+        "image": "image/hi/werindia.png",
+        "website": "https://hindi.werindia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Real Times",
+        "image": "image/hi/realtimes.jpg",
+        "website": "https://realtimes.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Sabrang India",
+        "image": "image/hi/sabrangindia.png",
+        "website": "https://hindi.sabrangindia.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Samachar Nama",
+        "image": "image/hi/samacharnama.png",
+        "website": "https://samacharnama.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "AgraMedia",
+        "image": "image/hi/agramedia.png",
+        "website": "https://agramedia.in",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "UP Varta News",
+        "image": "image/hi/upvartanews.png",
+        "website": "https://upvartanews.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Medhaj News",
+        "image": "image/hi/medhajnews.png",
+        "website": "https://webindia123.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "NewsWing",
+        "image": "image/hi/newswing.jpg",
+        "website": "https://newswing.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Palpal India",
+        "image": "image/hi/palpalindia.png",
+        "website": "https://palpalindia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "The Policy Times",
+        "image": "image/hi/thepolicytimes.png",
+        "website": "https://thepolicytimes.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Agra Leaks",
+        "image": "image/hi/agraleaks.png",
+        "website": "https://agraleaks.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Epatrakar",
+        "image": "image/hi/epatrakar.png",
+        "website": "https://epatrakar.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Kohraam",
+        "image": "image/hi/kohraam.png",
+        "website": "https://kohraam.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Perform India",
+        "image": "image/hi/perform-inida.png",
+        "website": "https://performindia.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      },
+      {
+        "name": "Rakshak News",
+        "image": "image/hi/rakshaknews.jpg",
+        "website": "https://rakshaknews.com",
+        "language": "Hindi",
+        "type": "Online News Portal"
+      }
+    ]
+  
+    

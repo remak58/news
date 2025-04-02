@@ -1,0 +1,570 @@
+/* Global Variables and Color Themes */
+:root {
+    /* Light Mode Colors */
+    --primary-color-light: #2c3e50;
+    --secondary-color-light: #3498db;
+    --background-light: #f4f6f7;
+    --text-color-light: #333;
+    --card-background-light: white;
+    --accent-color-light: #2ecc71;
+
+    /* Dark Mode Colors */
+    --primary-color-dark: #34495e;
+    --secondary-color-dark: #2980b9;
+    --background-dark: #1a1a2e;
+    --text-color-dark: #e0e0e0;
+    --card-background-dark: #16213e;
+    --accent-color-dark: #27ae60;
+
+    /* Transition and Animation */
+    --transition-speed: 0.3s;
+    --border-radius: 12px;
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    line-height: 1.6;
+    transition: all var(--transition-speed) ease;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-color-dark);
+}
+
+/* Container Styles */
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, 
+        var(--primary-color-light) 0%, 
+        var(--secondary-color-light) 100%);
+    color: white;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dark-mode .header {
+    background: linear-gradient(135deg, 
+        var(--primary-color-dark) 0%, 
+        var(--secondary-color-dark) 100%);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Header Action Buttons */
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+}
+
+.action-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.1);
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid var(--secondary-color-light);
+    border-radius: 8px 0 0 8px;
+    transition: all var(--transition-speed) ease;
+}
+
+.dark-mode #search-input {
+    background-color: var(--card-background-dark);
+    color: var(--text-color-dark);
+    border-color: var(--secondary-color-dark);
+}
+
+#search-btn {
+    padding: 10px 15px;
+    background-color: var(--secondary-color-light);
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease;
+}
+
+.dark-mode #search-btn {
+    background-color: var(--secondary-color-dark);
+}
+
+/* Category Buttons with Sliding Tab */
+.categories-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.categories::-webkit-scrollbar {
+    display: none; /* WebKit */
+}
+
+.category-slider {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    padding: 5px;
+    transition: all var(--transition-speed) ease;
+    cursor: grab;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.category-slider::-webkit-scrollbar {
+    display: none; /* WebKit */
+}
+
+.category-slider.active {
+    cursor: grabbing;
+}
+
+.category-btn {
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 1px solid var(--secondary-color-light);
+    color: var(--secondary-color-light);
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition-speed) ease;
+    position: relative;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.category-btn::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--secondary-color-light);
+    transition: width var(--transition-speed) ease;
+    z-index: 2;
+}
+
+.category-btn.active::after {
+    width: 100%;
+}
+
+.dark-mode .category-btn {
+    border-color: var(--secondary-color-dark);
+    color: var(--secondary-color-dark);
+}
+
+.category-btn.active {
+    background-color: var(--secondary-color-light);
+    color: white;
+}
+
+.dark-mode .category-btn.active {
+    background-color: var(--secondary-color-dark);
+}
+
+/* Newspaper Grid */
+.newspaper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.newspaper-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    padding-top: 30px;
+    background-color: var(--card-background-light);
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform var(--transition-speed) ease;
+}
+
+.dark-mode .newspaper-card {
+    background-color: var(--card-background-dark);
+    color: var(--text-color-dark);
+}
+
+.newspaper-card:hover {
+    transform: scale(1.05);
+}
+
+.newspaper-card img {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+/* Image Wrapper and Favorite Button Styles */
+.image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+.favorite-btn {
+    position: absolute;
+    top: -10px; /* Moved slightly higher */
+    right: -45px; /* Moved slightly to the right */
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Added subtle shadow for depth */
+}
+
+.favorite-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.favorite-btn i {
+    color: red;
+    font-size: 18px;
+}
+
+.favorite-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.favorite-btn i.fa-heart {
+    color: #ff4136;
+    text-shadow: 0 0 10px rgba(255, 65, 54, 0.5);
+}
+
+.favorite-btn i.fa-heart-broken {
+    color: #7f8c8d;
+    text-shadow: 0 0 10px rgba(127, 140, 141, 0.3);
+}
+
+.dark-mode .favorite-btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.newspaper-card h3 {
+    margin-bottom: 10px;
+}
+
+.newspaper-card .newspaper-type {
+    display: none;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: var(--card-background-light);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.dark-mode .modal-content {
+    background-color: var(--card-background-dark);
+    color: var(--text-color-dark);
+}
+
+.close-modal {
+    color: var(--secondary-color-light);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dark-mode .close-modal {
+    color: var(--secondary-color-dark);
+}
+
+/* Add Newspaper Modal Styling */
+#add-newspaper-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#add-newspaper-modal .modal-content {
+    background-color: var(--card-background-light);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    position: relative;
+    animation: slideIn 0.3s ease-out;
+    transform-origin: center;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.dark-mode #add-newspaper-modal .modal-content {
+    background-color: var(--card-background-dark);
+    color: var(--text-color-dark);
+}
+
+#add-newspaper-modal .close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: var(--secondary-color-light);
+    cursor: pointer;
+    transition: color var(--transition-speed) ease;
+}
+
+.dark-mode #add-newspaper-modal .close-modal {
+    color: var(--secondary-color-dark);
+}
+
+#add-newspaper-modal .close-modal:hover {
+    color: var(--primary-color-light);
+}
+
+.dark-mode #add-newspaper-modal .close-modal:hover {
+    color: var(--primary-color-dark);
+}
+
+#add-newspaper-modal h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--text-color-light);
+    font-size: 1.5rem;
+}
+
+.dark-mode #add-newspaper-modal h2 {
+    color: var(--text-color-dark);
+}
+
+#add-newspaper-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#add-newspaper-form input,
+#add-newspaper-form select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--secondary-color-light);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all var(--transition-speed) ease;
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+}
+
+.dark-mode #add-newspaper-form input,
+.dark-mode #add-newspaper-form select {
+    background-color: var(--background-dark);
+    color: var(--text-color-dark);
+    border-color: var(--secondary-color-dark);
+}
+
+#add-newspaper-form input:focus,
+#add-newspaper-form select:focus {
+    outline: none;
+    border-color: var(--primary-color-light);
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.dark-mode #add-newspaper-form input:focus,
+.dark-mode #add-newspaper-form select:focus {
+    border-color: var(--primary-color-dark);
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.4);
+}
+
+#add-newspaper-form input[type="file"] {
+    padding: 10px;
+    border: 1px dashed var(--secondary-color-light);
+}
+
+.dark-mode #add-newspaper-form input[type="file"] {
+    border-color: var(--secondary-color-dark);
+}
+
+#add-newspaper-form button[type="submit"] {
+    background-color: var(--primary-color-light);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    margin-top: 10px;
+}
+
+#add-newspaper-form button[type="submit"]:hover {
+    background-color: var(--primary-color-light-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode #add-newspaper-form button[type="submit"] {
+    background-color: var(--primary-color-dark);
+}
+
+.dark-mode #add-newspaper-form button[type="submit"]:hover {
+    background-color: var(--primary-color-dark-hover);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .newspaper-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .newspaper-card img {
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .newspaper-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newspaper-card h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+
+    .card-actions {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .newspaper-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories {
+        flex-wrap: wrap;
+    }
+
+    .category-btn {
+        margin-bottom: 5px;
+    }
+}

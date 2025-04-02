@@ -1,0 +1,422 @@
+[
+    {
+      "name": "Malayala Manorama",
+      "image": "image/ml/manorama-news.png",
+      "website": "https://manoramaonline.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Mathrubhumi",
+      "image": "image/ml/mathrubhumi.png",
+      "website": "https://mathrubhumi.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Deepika",
+      "image": "image/ml/deepika.png",
+      "website": "https://deepika.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Mangalam",
+      "image": "image/ml/mangalam.png",
+      "website": "https://mangalam.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Deshabhimani",
+      "image": "image/ml/deshabhimani.png",
+      "website": "https://deshabhimani.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Madhyamam",
+      "image": "image/ml/madhyamam.png",
+      "website": "https://madhyamam.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Kerala Kaumudi",
+      "image": "image/ml/kerala-kaumudi.png",
+      "website": "https://keralakaumudi.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Janmabhumi",
+      "image": "image/ml/janmabhumi-daily.png",
+      "website": "https://janmabhumidaily.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Siraj Daily",
+      "image": "image/ml/siraj-daily.png",
+      "website": "https://sirajlive.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Rashtra Deepika",
+      "image": "image/ml/rashtradeepika.png",
+      "website": "https://rashtradeepika.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Thejas",
+      "image": "image/ml/thejas.png",
+      "website": "https://thejasnews.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Chandrika Daily",
+      "image": "image/ml/chandrika.png",
+      "website": "https://chandrikadaily.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Suprabhaatham",
+      "image": "image/ml/suprabhaatham.png",
+      "website": "https://suprabhaatham.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Sudinam",
+      "image": "image/ml/sudinam.png",
+      "website": "https://sudinamonline.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Metro Vaartha",
+      "image": "image/ml/metro-vaartha.png",
+      "website": "https://metrovaartha.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Thalsamayam",
+      "image": "image/ml/thalsamayam.png",
+      "website": "https://thalsamayamonline.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Utharadesam",
+      "image": "image/ml/utharadesam.png",
+      "website": "https://utharadesam.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Sanghamam",
+      "image": "image/ml/sanghamam.png",
+      "website": "https://sanghamam.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Pravasi Express",
+      "image": "image/ml/pravasi-express.png",
+      "website": "https://pravasiexpress.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Kannur Metro",
+      "image": "image/ml/kannur-metro.png",
+      "website": "https://kannurmetroonline.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "General Daily",
+      "image": "image/ml/general-daily.png",
+      "website": "https://generaldaily.com",
+      "language": "Malayalam",
+      "type": "News Paper"
+    },
+    {
+      "name": "Oneindia Malayalam",
+      "image": "image/ml/oneindia.png",
+      "website": "https://malayalam.oneindia.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Webdunia Malayalam",
+      "image": "image/ml/webdunia.png",
+      "website": "https://malayalam.webdunia.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Samayam Malayalam",
+      "image": "image/ml/samayam.png",
+      "website": "https://malayalam.samayam.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Marunadan Malayali",
+      "image": "image/ml/marunadan.png",
+      "website": "https://marunadanmalayali.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Southlive",
+      "image": "image/ml/southlive.png",
+      "website": "https://southlive.in",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "DoolNews",
+      "image": "image/ml/doolnews.png",
+      "website": "https://doolnews.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "East Coast Daily",
+      "image": "image/ml/east-coast.png",
+      "website": "https://eastcoastdaily.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Times Kerala",
+      "image": "image/ml/times-kerala.png",
+      "website": "https://timeskerala.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Malayalam Express",
+      "image": "image/ml/malayalam-express.png",
+      "website": "https://malayalamexpress.in",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Azhimukham",
+      "image": "image/ml/azhimukham.png",
+      "website": "https://azhimukham.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Falcon Post",
+      "image": "image/ml/falcon-post.png",
+      "website": "https://falconpost.in",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Kasargod Vartha",
+      "image": "image/ml/kasargod.png",
+      "website": "https://kasargodvartha.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "4PM News",
+      "image": "image/ml/4pm-news.png",
+      "website": "https://4pmnews.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Sathyam Online",
+      "image": "image/ml/sathyam.png",
+      "website": "https://sathyamonline.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Pravasi Shabdam",
+      "image": "image/ml/pravasi-shabdam.png",
+      "website": "https://pravasishabdam.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "The Cue",
+      "image": "image/ml/the-cue.png",
+      "website": "https://thecue.in",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Kerala Online News",
+      "image": "image/ml/kerala-online.png",
+      "website": "https://keralaonlinenews.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Evartha",
+      "image": "image/ml/evartha.png",
+      "website": "https://evartha.in",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Malayalam News Daily",
+      "image": "image/ml/news-daily.png",
+      "website": "https://malayalamnewsdaily.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Express Kerala",
+      "image": "image/ml/express-kerala.png",
+      "website": "https://expresskerala.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Big News live",
+      "image": "image/ml/big-news.png",
+      "website": "https://bignewslive.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Anweshanam",
+      "image": "image/ml/anweshanam.png",
+      "website": "https://anweshanam.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Digital Malayali",
+      "image": "image/ml/digital-malayali.png",
+      "website": "https://digitalmalayali.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Evarthakal",
+      "image": "image/ml/evarthakal.png",
+      "website": "https://evarthakal.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Metro Journal Online",
+      "image": "image/ml/metro-journal.png",
+      "website": "https://metrojournalonline.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Daily Indian Herald",
+      "image": "image/ml/indian-herald.png",
+      "website": "https://dailyindianherald.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Chanakya News",
+      "image": "image/ml/chanakya.png",
+      "website": "https://chanakyanewz.com",
+      "language": "Malayalam",
+      "type": "Online News Portal"
+    },
+    {
+      "name": "Mathrubhumi News",
+      "image": "image/ml/mathrubhumi-news.png",
+      "website": "https://mathrubhumi.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "News18 Malayalam",
+      "image": "image/ml/news18.png",
+      "website": "https://malayalam.news18.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Asianet News",
+      "image": "image/ml/asianet.png",
+      "website": "https://asianetnews.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Janam TV",
+      "image": "image/ml/janam-tv.png",
+      "website": "https://janamtv.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Kairali News",
+      "image": "image/ml/kairali.png",
+      "website": "https://kairalinewsonline.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Manorama News",
+      "image": "image/ml/manorama-news.png",
+      "website": "https://manoramanews.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Twentyfour News",
+      "image": "image/ml/twentyfour.png",
+      "website": "https://twentyfournews.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "ETV Malayalam",
+      "image": "image/ml/etv.png",
+      "website": "https://etvbharat.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "MediaOne TV",
+      "image": "image/ml/mediaone.png",
+      "website": "https://mediaonetv.in",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Jaihind TV",
+      "image": "image/ml/jaihind.png",
+      "website": "https://jaihindtv.in",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Kaumudy TV",
+      "image": "image/ml/kaumudy.png",
+      "website": "https://kaumudy.tv",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    },
+    {
+      "name": "Reporter Live",
+      "image": "image/ml/reporter.png",
+      "website": "https://reporterlive.com",
+      "language": "Malayalam",
+      "type": "TV Channel"
+    }
+  ]
