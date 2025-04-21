@@ -271,6 +271,28 @@ body.dark-mode {
     display: flex;
     justify-content: flex-end;
 }
+.newspaper-card {
+    position: relative; /* Ensure children are contained */
+    overflow: hidden;   /* Prevent children from overflowing */
+}
+
+.card-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Responsive: Stack actions below image/title on mobile */
+@media (max-width: 600px) {
+    .card-actions {
+        position: static;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
 /* Image Wrapper and Favorite Button Styles */
 .image-wrapper {
     position: relative;
@@ -558,6 +580,7 @@ body.dark-mode {
 @media (max-width: 480px) {
     .newspaper-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     .categories {
@@ -566,5 +589,91 @@ body.dark-mode {
 
     .category-btn {
         margin-bottom: 5px;
+    }
+
+    .newspaper-card {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .newspaper-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-actions .favorite-btn {
+        display: none;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .header-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-actions {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .header-actions .action-btn {
+        margin: 0 10px;
+    }
+
+    .search-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-container input {
+        width: calc(100% - 50px);
+    }
+
+    .categories-container {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+    .category-slider {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .category-btn {
+        flex-shrink: 0;
+        margin-right: 10px;
+    }
+
+    .newspaper-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-actions .action-btn {
+        margin: 0 5px;
+        padding: 8px;
+    }
+
+    .newspaper-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 }
